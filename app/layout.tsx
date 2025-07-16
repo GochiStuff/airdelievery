@@ -231,6 +231,7 @@ export default function RootLayout({
         <Providers>
           
           <Header/>
+          
         {children}
         <FooterStrip/>
         </Providers>

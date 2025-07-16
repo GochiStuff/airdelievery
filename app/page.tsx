@@ -9,6 +9,7 @@ import { getLocalIp } from "@/hooks/useWebRTCforIP";
 import { useWebRTCContext } from "@/context/WebRTCContext";
 import InfoSection from "@/components/InfoSection";
 import TermsModal from "@/components/terms";
+import Link from "next/link";
 
 
 export default function MainPage() {
@@ -150,6 +151,7 @@ export default function MainPage() {
               />
 
         {/* Tagline background */}
+<<<<<<< Updated upstream
         <section className="relative w-full mt-10 md:w-auto flex md:block flex-col items-center md:items-start text-center md:text-left justify-center">
           <h1 className="text-6xl md:text-8xl font-extrabold drop-shadow-2xl select-none mb-2">
             FAST.
@@ -165,6 +167,66 @@ export default function MainPage() {
             No cloud. No storage. Just you and the receiver—peer to peer.
           </p>
         </section>
+=======
+<section className="relative  hidden md:flex flex-col items-start justify-center text-left px-8">
+<h2 className="text-6xl md:text-7xl font-extrabold tracking-tight drop-shadow-xl text-zinc-900 select-none mb-4">
+  Share Files in a Click.  
+  <br />
+  Sync Everything Instantly.
+</h2>
+<p className="text-lg md:text-xl text-zinc-700 font-medium max-w-xl">
+  A platform built for blazing-fast, private peer-to-peer file sharing — easier than ever.  
+  Now with powerful sync features using our latest apps, keeping all your devices in perfect harmony while still letting you share instantly with anything nearby.
+</p>
+
+
+
+  <div className="mt-6 flex gap-4">
+    <Link href='/download'>
+    <button className="bg-zinc-900 hover:bg-zinc-800 text-white text-sm md:text-base px-6 py-3 rounded-full font-medium shadow-lg transition">
+      Download Now
+    </button>
+    </Link>
+
+      <Link href="#new-features">
+    <button className="border border-zinc-300 hover:bg-zinc-100 text-zinc-700 text-sm md:text-base px-6 py-3 rounded-full font-medium transition">
+      See What's New
+    </button>
+      </Link>
+  </div>
+</section>
+
+<section className="relative md:hidden  mb-5 w-full flex flex-col items-center text-center px-6 space-y-3 mt-10">
+  <h1 className="text-4xl font-bold flex-nowrap text-zinc-900">
+    Share or Sync Everything. Instantly.
+  </h1>
+  <h2 className="text-base text-zinc-600">
+    Your files, clipboard, and more — perfectly in sync between all your devices.
+  </h2>
+  <div className="flex gap-3 pt-2">
+    
+      <Link href="/download">
+    <button className="bg-zinc-900 hover:bg-zinc-800 text-white px-5 py-2 rounded-full text-sm font-medium transition">
+      Download
+    </button>
+      </Link>
+    
+      <Link href="#new-features">
+    <button className="border border-zinc-300 hover:bg-zinc-100 text-zinc-700 px-5 py-2 rounded-full text-sm font-medium transition">
+      New Features
+    </button>
+      </Link>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+>>>>>>> Stashed changes
 
         {/* section 2 */}
         <section className="flex relative items-center sm:items-start flex-col md:flex-row gap-2">
@@ -293,8 +355,8 @@ export default function MainPage() {
             <div className="relative flex flex-col items-center pt-24 rounded-3xl shadow-2xl text-zinc-900 bg-orange-600 min-h-[480px] w-full max-w-md transition-all overflow-hidden ticket-border">
               {/* Ticket Header */}
               <div className="flex flex-col items-center mb-6">
-                <span className="uppercase tracking-widest text-xs font-bold text-zinc-100 opacity-70">
-                  airdelivery.site
+                <span className="uppercase text-center tracking-widest text-xs font-bold text-zinc-100 opacity-70">
+                  airdelivery.site <br /> p2p file share here
                 </span>
                 <h2 className="text-3xl font-extrabold tracking-tight text-zinc-100 mt-2 mb-1">
                   {username}
@@ -365,6 +427,7 @@ export default function MainPage() {
               </code>
             </div>
 
+<<<<<<< Updated upstream
             <div className="bg-zinc-900 rounded-xl shadow-xl p-4 md:p-5 text-zinc-200 text-sm md:text-base max-w-md w-full space-y-3">
               <h2 className="text-2xl font-bold text-white tracking-tight">About</h2>
               <p className="leading-relaxed text-zinc-400">
@@ -397,6 +460,8 @@ export default function MainPage() {
                 </a>
               </div>
             </div>
+=======
+>>>>>>> Stashed changes
           </div>
         </section>
       </main>

@@ -41,6 +41,7 @@ const faqs = [
   },
 ];
 
+
 const InfoSection = () => {
 
   const [name, setName] = useState("");
@@ -96,6 +97,7 @@ const handleSubmit = async (e: React.FormEvent) => {
 
   
   return (
+<<<<<<< Updated upstream
     <main  className="bg-black text-neutral-100 font-mono px-6 sm:px-12 lg:px-32">
       {/* Stats */}
       <section aria-labelledby="stats-heading" className="text-center py-24 space-y-12 max-w-6xl mx-auto">
@@ -112,6 +114,61 @@ const handleSubmit = async (e: React.FormEvent) => {
           <div className="text-center">
             <p className="text-4xl font-medium text-white">7,000+</p>
             <p>Share Sessions</p>
+=======
+    <main className=" antialiased">
+      {/* Hero Section */}
+<section id="new-features" className="py-12 bg-zinc-950 text-white md:py-32 px-6 sm:px-12 lg:px-24 border-b border-white/10">
+  <div className="max-w-5xl mx-auto">
+    <h2 className="text-5xl sm:text-6xl md:text-7xl font-bold tracking-tight leading-none mb-8">
+      Share files <span className="text-orange-500">instantly</span>.<br />
+      No middleman.
+    </h2>
+    <h1 className="text-xl md:text-2xl text-neutral-400 max-w-3xl leading-relaxed mb-12">
+      Secure, encrypted peer-to-peer file sharing with no size limits, no sign-ups, and transfers at 100+ Mbps.
+    </h1>
+
+    <div className="space-y-12 max-w-4xl">
+      <div>
+        <h3 className="text-3xl font-semibold mb-4">Core Features</h3>
+        <ul className="list-disc list-inside space-y-2 text-neutral-300 text-lg">
+          <li><strong>Instant File Sharing:</strong> Send files peer-to-peer with blazing speed and zero middlemen.</li>
+          <li><strong>Device Sync:</strong> Keep all your files, folders, clipboard, and more in sync across every device.</li>
+          <li><strong>Unified Cloud Integration (Upcoming):</strong> Connect all your cloud drives for a seamless, all-in-one experience.</li>
+        </ul>
+      </div>
+
+      <div >
+        <h3 className="text-3xl font-semibold mb-4">New Features</h3>
+        <ul className="list-disc list-inside space-y-2 text-neutral-300 text-lg">
+          <li><strong>Trusted Devices & Sign-In:</strong> Securely manage which devices have access to your account.</li>
+          <li><strong>Sync Folders:</strong> Automatically sync selected folders across devices.</li>
+          <li><strong>Clipboard Sync:</strong> Share clipboard content instantly between your devices.</li>
+          <li>…and many more exciting updates coming soon.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+      {/* Stats */}
+      <section className="py-12 md:py-32 px-6 sm:px-12 lg:px-24 border-b bg-accent border-black/10">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 md:mb-20 tracking-tight">The numbers speak</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16">
+            <div>
+              <p className="text-5xl font-bold text-orange-500 mb-2 md:mb-4">500GBs+</p>
+              <p className="text-xl text-neutral-700">Data Shared</p>
+            </div>
+            <div>
+              <p className="text-5xl font-bold text-orange-500 mb-2 md:mb-">10K+</p>
+              <p className="text-xl text-neutral-700">Users in First Month</p>
+            </div>
+            <div>
+              <p className="text-5xl font-bold text-orange-500 mb-2 md:mb-">13K+</p>
+              <p className="text-xl text-neutral-700">Share Sessions</p>
+            </div>
+>>>>>>> Stashed changes
           </div>
         </div>
       </section>
