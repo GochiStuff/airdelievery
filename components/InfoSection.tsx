@@ -97,24 +97,6 @@ const handleSubmit = async (e: React.FormEvent) => {
 
   
   return (
-<<<<<<< Updated upstream
-    <main  className="bg-black text-neutral-100 font-mono px-6 sm:px-12 lg:px-32">
-      {/* Stats */}
-      <section aria-labelledby="stats-heading" className="text-center py-24 space-y-12 max-w-6xl mx-auto">
-        <h2 id="stats-heading" className="text-4xl md:text-5xl font-semibold tracking-tight">Performance That Speaks</h2>
-        <div className="flex flex-wrap justify-center gap-12 text-lg text-neutral-400">
-          <div className="text-center">
-            <p className="text-4xl font-medium text-white">15,000+</p>
-            <p>Files Shared</p>
-          </div>
-          <div className="text-center">
-            <p className="text-4xl font-medium text-white">4,000+</p>
-            <p>Users in First Month</p>
-          </div>
-          <div className="text-center">
-            <p className="text-4xl font-medium text-white">7,000+</p>
-            <p>Share Sessions</p>
-=======
     <main className=" antialiased">
       {/* Hero Section */}
 <section id="new-features" className="py-12 bg-zinc-950 text-white md:py-32 px-6 sm:px-12 lg:px-24 border-b border-white/10">
@@ -168,7 +150,6 @@ const handleSubmit = async (e: React.FormEvent) => {
               <p className="text-5xl font-bold text-orange-500 mb-2 md:mb-">13K+</p>
               <p className="text-xl text-neutral-700">Share Sessions</p>
             </div>
->>>>>>> Stashed changes
           </div>
         </div>
       </section>

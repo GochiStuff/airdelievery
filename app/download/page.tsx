@@ -116,7 +116,7 @@ export default function DownloadPage() {
               Sorry, All features are not available on IPhone
             </p>
             <a
-              href="#"
+              href="#"  
               className="inline-block"
             >
               <img

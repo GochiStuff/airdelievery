@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <>
     
-    <header className="flex items-center justify-between px-4 md:px-10 backdrop-blur-md border-b bg-white shadow-lg h-20">
+    <header className="flex items-center justify-between px-4 md:px-10 backdrop-blur-md border-b bg-white shadow-lg h-16">
       {/* Logo */}
       <div className="flex items-center gap-2">
         <Image src="/icons/logo.png" alt="Logo" width={40} height={40} />
@@ -109,16 +109,6 @@ export default function Header() {
         </Sheet>
       </div>
 
-<<<<<<< Updated upstream
-           
-
-            
-
-           
-        </header>   
-    );
-}
-=======
             {/* Banner */}
     </header>
       <div className="bg-yellow-400 text-black text-center py-3 px-6  font-semibold text-sm border-yellow-500">
@@ -127,4 +117,3 @@ export default function Header() {
     </>
   );
 }
->>>>>>> Stashed changes
